@@ -1,6 +1,8 @@
 ## Reinforce(Monte-Carlo Policy Gradient)
 
-<div align=center> ![reinforce](../image/reinforce.png) </div>
+<div align=center> 
+    <img src='../image/reinforce.png'
+</div>
 
 
 
@@ -37,4 +39,3 @@
   which mean we should maximize the action what we have selected .
 
 ​		
-
