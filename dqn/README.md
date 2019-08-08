@@ -1,8 +1,7 @@
-## Reinforce(Monte-Carlo Policy Gradient)
+## DQN
 
-<div align=center> 
-    <img src='../image/dqn.png'
-</div>
+![pg](../image/dqn.png)
+
 
 
 

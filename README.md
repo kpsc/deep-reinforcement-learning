@@ -1,8 +1,7 @@
 ## deep-reinforcement-learning
 
-<div align=center> 
-    <img src='./image/drl-2.jpg'
-</div>
+![drl](./image/drl-2.jpg)
+
 
 
 

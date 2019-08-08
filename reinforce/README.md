@@ -1,8 +1,7 @@
 ## Reinforce(Monte-Carlo Policy Gradient)
 
-<div align=center> 
-    <img src='../image/reinforce.png'
-</div>
+![pg](../image/reinforce.png)
+
 
 
 
