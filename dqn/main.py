@@ -36,7 +36,7 @@ def enjoy(sess, agent, env):
             print('Episode reward', episode_reward)
             episode_reward = 0
     
-    # env.close()
+    env.close()
 
 
 if __name__ == '__main__':
@@ -88,3 +88,4 @@ if __name__ == '__main__':
               (t, num_episodes, mean_100ep_reward, loss, exploration.value(t)))
 
         enjoy(sess, agent, env)
+        
