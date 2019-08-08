@@ -1,6 +1,6 @@
 ## Reinforce(Monte-Carlo Policy Gradient)
 
-![reinforce](../image/reinforce.png)
+<div align=center> ![reinforce](../image/reinforce.png) </div>
 
 
 
@@ -21,18 +21,20 @@
   [reference](https://github.com/rlcode/reinforcement-learning/blob/master/2-cartpole/3-reinforce/cartpole_reinforce.py) 
 
   categorical cross entropy:
-  $$
-  H(p, q) = \sum{p_i*log(q_i)}
-  $$
+  
+  <div align=center> H(p, q) = sum(p_i * log(q_i)) </div>
+  
   take action - $a$ :
-  $$
-  p_a = value \\
-  q_a = policy(s, a) \\
-  $$
+  
+  <div align=center> p_a = value </div>
+  
+  <div align=center> q_a = policy(s, a) </div>
+  
   then we get
-  $$
-  J_{max} = reward * log(\pi_a)
-  $$
+  
+  <div align=center> J_max = reward * log(pi_a) </div>
+  
   which mean we should maximize the action what we have selected .
 
 ​		
+
