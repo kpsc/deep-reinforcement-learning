@@ -1,6 +1,8 @@
 ## Actor-Critic
 
-![ac](../image/ac-1.png)
+<div align=center> 
+    <img src='../image/ac-1.png'
+</div>
 
 ```
 actor: 输出动作
