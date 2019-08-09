@@ -26,17 +26,24 @@ Some experiments about reinforcement learning ,  the environment is mainly on Ca
 
 - [books](http://web.mit.edu/dimitrib/www/RLbook.html)
 - [deep-reinforcement-learning-papers](https://github.com/junhyukoh/deep-reinforcement-learning-papers)
-- [awesome-rl](https://github.com/aikorea/awesome-rl)  $\star\star\star\star\star$   Many resources about rl
+- [awesome-rl](https://github.com/aikorea/awesome-rl)    Many resources about rl
 
 
 
 ## FrameWork
 
 - [openai/baseline](https://github.com/openai/baselines)
-
 - [rlcode](https://github.com/rlcode/reinforcement-learning)
-
 - [dopamine](https://github.com/google/dopamine)
+- [SLM-Lab](https://github.com/kengz/SLM-Lab)  Modular Deep Reinforcement Learning framework in PyTorch
+
+
+
+## Tools
+
+- [spiningup](https://github.com/openai/spinningup)  OpenAI  [Docs-zh](https://spinningup.readthedocs.io/zh_CN/latest/index.html) [Docs-en](https://spinningup.openai.com/en/latest/index.html)
+- [TRFL](https://github.com/deepmind/trfl/)  Deepmind TensorFlow Reinforcement Learning
+- [Tensorforce](https://github.com/tensorforce/tensorforce)  a TensorFlow library for applied reinforcement learning
 
 
 

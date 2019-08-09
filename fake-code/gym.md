@@ -19,7 +19,7 @@
 2. base
 
    ```python
-   # 查看所有可用的 env:   gym.envs.registry.all()
+   # 查看所有可用的 env:   gym.envs.registry.env_specs
    import gym
    env = gym.make('[game name]')
    env.reset()

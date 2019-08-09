@@ -25,7 +25,7 @@
   
   <div align=center> H(p, q) = sum(p_i * log(q_i)) </div>
   
-  take action - $a$ :
+  take action
   
   <div align=center> p_a = value </div>
   
