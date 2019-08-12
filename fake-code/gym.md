@@ -48,4 +48,23 @@
    
    ```
 
-   
+
+
+
+ 4. envs
+
+    ```
+    # Toy text
+    Blackjask-v0	FrozenLake-v0	FrozenLake8X8-v0	GuessingGame-v0
+    HotterColder-v0	NChain-v0		Roulette-v0			Taxi-v2
+    
+    # Algorithms
+    Copy-v0
+    DuplicatedInput-v0
+    RepeatCopy-v0
+    Reverse-v0
+    ReversedAddition-v0
+    ReversedAddition3-v0
+    ```
+
+    

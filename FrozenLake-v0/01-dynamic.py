@@ -107,6 +107,6 @@ if __name__ == '__main__':
     # policy = model.policy_improvement()
 
     policy, V = model.value_iteration()
-    plot(V, 'random-action-Value')
+    plot(V, 'dynamic-value-iteration')
 
     env.eval(policy)

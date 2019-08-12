@@ -88,6 +88,6 @@ if __name__ == '__main__':
     env = FrozenLakeEnv()
     model = MonteCarlo(env, params)
     policy, V = model.first_visit()
-    plot(V, 'montecarlo-first-visit.png')
+    plot(V, 'montecarlo-first-visit')
 
     env.eval(policy)
