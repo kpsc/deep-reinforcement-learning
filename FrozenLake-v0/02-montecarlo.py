@@ -81,6 +81,9 @@ class MonteCarlo():
 
             self.policy = self.policy_improvement()
 
+            if episode[-1][-1] > 0:
+                print(_)
+
         return self.policy, self.V
 
 

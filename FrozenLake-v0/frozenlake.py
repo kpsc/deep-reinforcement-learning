@@ -69,7 +69,7 @@ class FrozenLakeEnv():
 
         if self.map[row][col] == b'G':
             reward = 1
-        # elif self.map[row][col] == b'H':
+        # elif self.map[row][col] == b'H':  # add this for punish when game failed
         #     reward = -1
         else:
             reward = 0
