@@ -106,7 +106,7 @@ class FrozenLakeEnv():
             self.render()
 
         if s == self.states[-1]:
-            print('Complete!')
+            print('Well done!')
             return True
         else:
             print('Game Over!')

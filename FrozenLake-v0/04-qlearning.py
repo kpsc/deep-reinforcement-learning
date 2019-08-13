@@ -61,7 +61,7 @@ class Qlearning():
 
         return self.V
 
-    def __call__(self, steps=1000):
+    def __call__(self, steps=5000):
         for step in tqdm(range(1, steps+1)):
             eps = max(1.0 / step, 0.01)
 
@@ -85,9 +85,9 @@ class Qlearning():
 
 
 if __name__ == '__main__':
-    env = FrozenLakeEnv()
+    env = FrozenLakeEnv('8x8')
     model = Qlearning(env, params)
     policy, V = model()
-    plot(V, 'qlearning')
+    plot(V, 'qlearning 8x8')
 
     env.eval(policy)

@@ -4,9 +4,14 @@ import matplotlib.pyplot as plt
 
 # env = gym.make('FrozenLake-v0')   4*4
 def plot(values, title='State-Value'):
-    values = np.reshape(values, (4, 4))
+    size = values.size
+    nrow = int(np.sqrt(size))
+    ncol = size // nrow
+    assert nrow * ncol == size
 
-    fig = plt.figure(figsize=(6, 6))
+    values = np.reshape(values, (nrow, ncol))
+
+    fig = plt.figure(figsize=(nrow+2, ncol+2))
     ax = fig.add_subplot(111)
     ax.imshow(values, cmap='cool')
     for (j, i), label in np.ndenumerate(values):
@@ -18,5 +23,5 @@ def plot(values, title='State-Value'):
 
 
 if __name__ == '__main__':
-    x = np.random.random((4, 4))
+    x = np.random.random(16)
     plot(x)
