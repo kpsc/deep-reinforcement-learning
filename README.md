@@ -1,9 +1,8 @@
 ## deep-reinforcement-learning
 
-<p>
-    <img src="./image/drl-2.jpg" align="center">
+<p align="center">
+    <img src="./image/drl-2.jpg">
 </p>
-
 
 
 
