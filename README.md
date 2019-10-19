@@ -28,6 +28,8 @@ Some experiments about reinforcement learning ,  the environment is mainly on Ca
 - [books](http://web.mit.edu/dimitrib/www/RLbook.html)
 - [deep-reinforcement-learning-papers](https://github.com/junhyukoh/deep-reinforcement-learning-papers)
 - [awesome-rl](https://github.com/aikorea/awesome-rl)    Many resources about rl
+- [reinforcement-learning](https://github.com/dennybritz/reinforcement-learning)
+- [reinforcement-learning-an-introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
 
 
 
