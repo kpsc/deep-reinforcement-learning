@@ -25,6 +25,7 @@ Some experiments about reinforcement learning ,  the environment is mainly on Ca
 
 ## Resource
 
+- [Deep-Reinforcement-Learning-Algorithms-with-PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
 - [books](http://web.mit.edu/dimitrib/www/RLbook.html)
 - [deep-reinforcement-learning-papers](https://github.com/junhyukoh/deep-reinforcement-learning-papers)
 - [awesome-rl](https://github.com/aikorea/awesome-rl)    Many resources about rl
@@ -69,3 +70,5 @@ Some experiments about reinforcement learning ,  the environment is mainly on Ca
 ## Games
 
 - [FlappyBird](https://github.com/yenchenlin/DeepLearningFlappyBird)
+- [AIGames](https://github.com/CharlesPikachu/AIGames)
+- [Games](https://github.com/CharlesPikachu/Games)
